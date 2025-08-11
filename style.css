@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: #eef2f3;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #333;
+    padding: 20px;
+}
+.button {
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background: #4CAF50;
+    color: white;
+    transition: 0.3s;
+}
+.button:hover {
+    background: #45a049;
+}
+#countdown {
+    font-size: 18px;
+    margin: 10px;
+    color: #555;
+}
+video {
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    margin-top: 10px;
+}
+#results {
+    margin-top: 20px;
+    display: none;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+    text-align: left;
+}
+.score {
+    font-weight: bold;
+}
+.good { color: green; }
+.average { color: orange; }
+.poor { color: red; }
+.download-btn {
+    background: #2196F3;
+    margin-top: 20px;
+}
+.download-btn:hover {
+    background: #1976D2;
+}

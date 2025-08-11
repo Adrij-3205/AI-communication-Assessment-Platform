@@ -1,0 +1,12 @@
+flask
+opencv-python
+speechrecognition
+language-tool-python
+nltk
+requests
+numpy
+pyaudio
+azure-cognitiveservices-speech
+pydub
+pronouncing
+mediapipe

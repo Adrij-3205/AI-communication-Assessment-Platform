@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Communication Assessment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+<h1>Communication Assessment</h1>
+<button class="button" onclick="startAssessment()">Take Assessment</button>
+<div id="countdown"></div>
+<video id="webcam" autoplay muted playsinline width="480" height="360"></video>
+<br>
+<button class="button" onclick="viewResults()">View Results</button>
+<button class="button download-btn" onclick="downloadPDF()">Download Results</button>
+
+<div id="results"></div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
